@@ -17,6 +17,8 @@ const myEventsList = [
     start: new Date(2023, 11, 17),
     end: new Date(2023, 11, 22),
   },
+  {},
+  {},
 ];
 
 export const MyCalendar = (props) => (
