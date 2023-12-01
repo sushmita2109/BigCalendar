@@ -36,10 +36,12 @@ export const MyModal = () => {
         aria-describedby="child-modal-description"
       >
         <Box sx={{ ...style, width: 200 }}>
-          <h2 id="child-modal-title">Text in a child modal</h2>
-          <p id="child-modal-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
+          <h2 id="child-modal-title">Add new task</h2>
+          <input placeholder="Enter title" />
+          <input placeholder="Enter Start Date" />
+          <input placeholder="Enter End date" />
+
+          <Button>Submit</Button>
           <Button onClick={handleClose}>Close Child Modal</Button>
         </Box>
       </Modal>
